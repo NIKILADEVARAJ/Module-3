@@ -12,9 +12,17 @@ To write a Python program to check whether the string `"google"` is a **palindro
 4. Execute the program.
 
 ## 🧾 Program
-
-Add code here
-
+```
+original_string = "google"
+reversed_string = original_string[::-1]
+if original_string == reversed_string:
+    print(f'"{original_string}" is a palindrome.')
+else:
+    print(f'"{original_string}" is not a palindrome.')
+```
 ## Output
+![image](https://github.com/user-attachments/assets/f7433559-6a2e-480f-ad9f-0a25573f5d67)
 
 ## Result
+The program was successfully executed. It correctly identified that the string "google" is not a palindrome by comparing it with its reversed version ("elgoog"). The output matches the expected result.
+
